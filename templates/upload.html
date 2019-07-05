@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>IGDTUW</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static' ,filename = 'login.css')}}"   >
+    
+</head>
+<body>  
+
+  
+<div class="container">
+  <h3>IGDTUW MESS LOGIN</h3>
+</div>
+<div class="login-page">
+  <div class="form">
+
+    <form class="login-form" action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+    <button name="submit">Submit</button>
+    </form>
+    </div>
+</div>
+</body>
+</html>
+
+<!---  --->
